@@ -1,13 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div class="container mx-auto px-4 ">
+        <h1 className='italic'>Hello</h1>
+      </div>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Fahmi Dafrin Maulana
         </p>
         <a
           className="App-link"
@@ -17,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
